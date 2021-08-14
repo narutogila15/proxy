@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=45.79.8.197:7777
+POOL=rx-us.unmineable.com:3333
 WALLET=TRX:TTCnXEWmpqS6GD615Ap5DHj1PWo5fptr16
 WORKEER=$(echo $(shuf -i 1000-9999 -n 1)-OK#ek61-6h9x)
 
